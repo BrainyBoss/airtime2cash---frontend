@@ -1,0 +1,117 @@
+/* *,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    overflow: hidden;
+    position: relative;
+    margin-top: 5rem;
+   
+    
+    
+}
+.container .dashboard_frame{
+    border: 1px solid #d9d9d9;
+    /* width: 551px; */
+    height: 600px;
+    background-color: #fff;
+    /* padding: 0rem 2rem; */
+}
+
+.container .dashboard_frame .headerContainer{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0 1rem; */
+}
+.container .dashboard_frame .single_account{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    box-shadow: 0px 2px 3px 0px rgb(193, 190, 190);
+    margin-bottom: 1rem;
+}
+.btn_container{
+   right: 0.5rem;
+
+}
+.btn_container .remove_btn{
+    width: 73px;
+    height: 100%;
+    padding: 0.5rem 1rem;
+    background-color: rgba(0, 0, 0, 0.05);;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #012A4A;
+    text-transform: capitalize;
+    font-size: 12px;
+    
+}
+.container .dashboard_frame .headerContainer .secondHeader{
+    color:red;
+    font-weight: 200;
+}
+
+.bank-name{
+    font-size: 14px;
+    color: #012A4A;
+    ;
+}
+
+.bank_account{
+    font-size: 14px;
+    color: #012A4A;
+    ;
+}
+
+.account_name{
+    font-size: 14px;
+    color: #012A4A;
+
+}
+
+.header {
+    color: #012A4A;
+    margin-bottom: 2rem;
+    font-size: 20px;
+}
+
+.single_account {
+    height: 90px;
+}
+
+
+.viewbank_btn{
+    width: 198px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    background: linear-gradient(2.1deg, #DE3D6D 55.67%, #F5844C 101.51%);;
+    outline: none;
+    border: 1px solid #D9D9D9;
+    color: white;
+    margin-top: -2rem;
+    cursor: pointer;
+    margin-right: 19rem;
+} 
+
+#modal-btn{
+    width:40%;
+    align-items: center;
+    padding:2px;
+}

@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.manage_sucess_container{
+    height: 100vh;
+    width: 100vw;
+   
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background: rgba(49,49,49,0.8);
+}
+
+
+.manage_success {
+    text-align: center;
+    margin-top: 12rem;
+    padding: 2rem;
+    padding-bottom: 4rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 28rem;
+    background: white;  
+
+}
+
+.manage_success button {
+width: 343px;
+height: 44px;
+background-color: rgba(226, 0, 16, 0.05);
+margin-top: 2rem;
+font-size: 14px;
+color: #DE3D6D;
+outline: none;
+border-color: transparent;
+cursor: pointer;
+border-radius: 0.3rem;
+}
+
+.manage_success p {
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #21334F;
+margin-top: 0.3rem;
+width: 60%;
+margin-left: 5rem;
+}
+
+.manage_success .manage_img{
+    margin-bottom: 1.8rem;
+    width: 22%;
+}
+
+.manage_h2 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .manage_success {
+        width: 80%;
+        margin-top: 12rem;
+    }
+
+    .manage_success h2 {
+        font-size: 16px;
+    }
+
+    .manage_success p{
+        font-size: 14px;
+        width: 80%;
+        margin-left: 1.5rem;
+    }
+
+    .manage_success button {
+        width: 200px;
+    }
+
+}

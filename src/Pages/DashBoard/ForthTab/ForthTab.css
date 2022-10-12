@@ -1,0 +1,125 @@
+.general1{
+    display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 0.6rem;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+#transaction-historytab{
+  /* border: 2px solid red; */
+  overflow: scroll;
+  scrollbar-width: 2px;
+  height:90vh
+
+}
+
+.details-history{
+    
+    height:100%
+}
+  #time-text {
+    width: 110px;
+    height: 17px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    /* line-height: 17px; */
+    /* identical to box height */
+    color: #21334f;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding-bottom:0 0
+  }
+
+  #withdraw-text {
+    width: 115px;
+    height: 17px;
+    margin-top: 0.1rem ;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight:60;
+    font-size: 14px;
+    line-height: 17px;
+    color: black;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  #date-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #21334f;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+
+  .btn6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* border: 6px solid red */
+    height: 70%
+  }
+  #received {
+    width: 88px;
+    height: 100%;
+    background: rgba(52, 168, 83, 0.1);
+    border-radius: 40px;
+    color: #34a853;
+    border: 0px solid rgba(52, 168, 83, 0.1);
+    margin-bottom: 3px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+  }
+  #received>p{
+    font-size:18px;
+  }
+
+  .btn6>.naira {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    /* line-height: 17px; */
+    /* color: red; */
+    padding: 0;
+    /* padding: 10px; */
+    margin-top:3px
+  
+  }
+
+.btn6>p{
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #03435F;
+}
+  /* @media (max-width: 650px) {
+    .general1{
+    width: 100%;
+    height: 99px;
+    background: #ffffff;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+    }
+  } */
