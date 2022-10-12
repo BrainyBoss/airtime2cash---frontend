@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.confirmation_success {
+  text-align: center;
+  margin-top: 4rem;
+  padding: 2rem;
+  padding-bottom: 4rem;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 860px;
+  height: 527px;
+  background: white;   
+}
+
+.confirmation_success h1 {
+  color: #03435F;
+}
+
+
+.confirmation_success button {
+width: 240px;
+height: 54px;
+background: linear-gradient(104.22deg, #DE3D6D 38.86%, #F5844C 82.71%);
+margin-top: 1rem;
+font-size: 16px;
+color: white;
+outline: none;
+border: 1px solid transparent;
+cursor: pointer;
+border-radius: 0.3rem;
+}
+
+.confirmation_success .confirmation-p {
+font-size: 16px;
+line-height: 20px;
+color: #21334F;
+margin: 1.2rem 0;
+width: 45%;
+margin-left: 15rem;
+}
+
+.confirmation_success .manage_img{
+  margin: 5rem 0 2rem 0;
+  width: 90px;
+  height: 72px;
+}
+
+
+.checkmail-paragraph {
+    color: #012A4A;
+    font-size: 14px;
+    padding: 1rem 0;
+}
+
+.checkmail-paragraph .checkmail-btn {
+  color: #DF3E6E;
+}
+
+.checkmail-btn:hover{
+  cursor: pointer;
+  user-select: none;
+} 
+
+
+
+
+@media all and (max-width: 980px) {
+  .confirmation_success {
+    width: 700px;
+  }
+
+  .confirmation_success .confirmation-p{
+    font-size: 17px;
+    width: 60%;
+    margin-left: 8rem;
+    line-height: 1.5;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .confirmation_success {
+      width: 93%;
+  }
+
+  .confirmation_success h1 {
+      color: #03435F;
+      font-size: 18px;
+  }
+
+  .confirmation_success .confirmation-p{
+      font-size: 14px;
+      width: 80%;
+      margin-left: 1.5rem;
+  }
+
+  .confirmation_success button {
+      width: 200px;
+  }
+
+}

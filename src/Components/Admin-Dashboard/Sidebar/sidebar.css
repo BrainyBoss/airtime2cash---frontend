@@ -1,0 +1,47 @@
+.admin-sidebar_container {
+  display: flex;
+}
+main {
+  width: 100%;
+  padding: 20px;
+}
+.admin_sidebar {
+  background: #ffff;
+  color: #012a4a;
+  height: 120vh;
+  width: 200px;
+  transition: all 0.5s;
+  border-right: 1px solid white;
+  box-shadow: 2px 2px 2px 1px rgb(229, 245, 250);
+}
+.admin_top_section {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 15px;
+}
+
+.admin_arrow {
+  display: flex;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.admin_link {
+  display: flex;
+  color: #012a4a;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  justify-content: center;
+}
+
+.isActive {
+  background: #de3d6d;
+  color: white;
+}
+.admin_icon,
+.admin_link_text {
+  font-size: 17px;
+  margin: 1rem 0;
+  padding: 0 0.5rem;
+}

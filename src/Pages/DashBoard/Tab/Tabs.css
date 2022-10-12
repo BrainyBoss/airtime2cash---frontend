@@ -1,0 +1,51 @@
+.Tabs {
+  width: 80%;
+  box-sizing: border-box;
+}
+.nav {
+  margin-top: 5%;
+  width: 100%;
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* align-items: center; */
+  list-style: none;
+  /* gap: 10%;  */
+}
+.nav > li {
+  font-size: 14px;
+  font-weight: 400;
+  color: #012a4a;
+  padding-bottom: 0.6%;
+  cursor: pointer;
+}
+.nav > li::after {
+  height: 0;
+}
+.nav > li:hover::after {
+  /* border: 1px solid red; */
+}
+
+ul.nav li.active {
+  border-bottom: 1px solid #de3d6d;
+}
+.outlet {
+  width: 100%;
+  justify-items: left;
+
+  /* border: 4px solid blue; */
+  /* margin-bottom: 20px */
+  /* padding: 4rem 0; */
+}
+
+.TabContent {
+  font-size: 2rem;
+  /* text-align: center; */
+}
+@media (max-width: 668px) {
+  .nav {
+    display: block;
+    text-align: center;
+  }
+}

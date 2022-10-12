@@ -1,0 +1,257 @@
+
+
+#gg{
+    background: white;
+   
+}
+
+.login_container{
+ width: 100%;
+ display: flex;
+ height:1138px;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+    background: white;
+
+
+ 
+}
+.subdiv{
+    position: relative;
+    width: 100%;
+    height: 371px;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    background: rgba(222, 61, 109, 0.1);
+    /* border: 3px solid red; */
+   
+}
+  @media screen and (max-width: 800px) {
+     .subdiv{
+       height: 15rem;
+       width:160%
+    }
+}
+
+.update_back {
+ 
+    background: white;
+    margin-top: 6%;
+    padding: 0 7rem;
+    position: absolute;
+    z-index: 2;
+    height: 800px;
+    top: 130px;
+    padding-left: 4rem;
+    padding-right:4rem;
+        border: 1px solid #D9D9D9;
+}
+
+.update_back .login_header {
+    text-align: center;
+    font-size: 20px;
+    margin: 3rem 0;
+    font-weight: 500;
+    
+}
+.basic{
+    /* border: 4px solid red; */
+    align-items: center;
+    padding-left: 70px;
+}
+.basic-info{
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+    width: 155px;
+    height: 22px;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-left: -5rem
+}
+
+form {
+    padding: 0rem 6rem;
+}
+
+
+
+form .update-btn {
+    width: 50%;
+    height: 50px;
+    font-size: 18px;
+    background: linear-gradient(92.1deg, #DE3D6D 55.67%, #F5844C 101.51%);;
+    outline: none;
+    border: none;
+    color: white;
+    margin-top: 2rem;
+    cursor: pointer;
+
+}
+
+#button3 {
+    width: 100%;
+    border: 2px solid blue;
+}
+#profile-image{
+
+}
+.avatar6{
+  
+    margin-left:0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+body {
+  
+}
+    
+
+
+    .login_back {
+        background: white; 
+    }
+
+    form input {
+        width: 220px;
+    height: 40px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    form .update-btn {
+        width: 242px;
+    }
+    
+
+}
+
+
+.gen{
+    position: fixed;
+    z-index: 200;
+    top: 30%;
+    bottom: 30%;
+    /* left: 30%;
+    right:30%; */
+    width: 30%;
+    height: 40%;
+  
+    background-color: white;
+    border: 3px solid black;
+  
+    overflow: auto;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.avatar1{
+    height:10px
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	.gen {
+        width: 70%;
+        top: 30%;
+    bottom: 0;
+    left: 0;
+    right:0;
+    margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .gen {
+      width: 100%;
+      top: 30%;
+    bottom: 0;
+    left: 0;
+    right:0;
+    }
+#mainlog{
+    width:60%;
+    /* height:19px */
+  }
+    .update_back{
+        width: 100%;
+       
+          background: white;
+    margin-top: 6%;
+    padding: 0 7rem;
+    position: absolute;
+    z-index: 2;
+    height: 800px;
+    top: 130px;
+    padding-left: 2.5rem;
+    padding-right:4rem;
+    }
+  
+  }
+
+ .modal-content{
+    /* width: 400px; */
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3rem;
+    border-radius: 1rem;
+    padding: 1rem
+  }
+
+
+
+.modal-logo {
+ width: 150px
+}
+.upload-section {
+  display: flex;
+ flex-direction: column;
+  justify-content: center;
+    align-items: center;
+    gap: 1rem
+  }
+
+  .close-btn {
+    align-self: flex-end;
+    cursor: pointer
+  }
+  .allowed-text {
+    color: red;
+    font-size: 12px
+  }
+  .save-btn-modal {
+    margin-top: 1rem;
+    color: #ffffff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+    background-image: linear-gradient(to right, #de3d6d 80%, #f5844c 100%);
+}
+
+#button3{
+    width: 100%;
+    background-color:  white;
+    height: 50px;
+
+    
+}
+
