@@ -16,7 +16,7 @@ export const WithdrawStyle = styled.div `
     justify-content: space-between;
   }
   .viewacctselect {
-    cursor: pointer;
+    cursor: pimointer;
     display: flex;
     justify-content: space-between;
     margin: 20px 0px 0px 0px;
@@ -97,6 +97,13 @@ margin:-0.8rem 0 0.8rem;
   }
 `;
 export const CustomStyle = {
+   option: (provided, state) => ({
+      ...provided,
+      borderBottom: "1px dotted pink",
+      color: state.isSelected ? "red" : "black",
+      padding: 10,
+      fontSize: 14,
+    }),
     control: (base) => ({
         ...base,
         // border: "1px solid #DE3D6D",

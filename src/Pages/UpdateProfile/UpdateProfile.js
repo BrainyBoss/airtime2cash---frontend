@@ -58,6 +58,8 @@ const UpdateProfile = () => {
         }
       );
 
+      console.log("RESPONSE", res)
+
       localStorage.setItem("firstName", firstName);
       localStorage.setItem("lastName", lastName);
       localStorage.setItem("phoneNumber", phoneNumber);
@@ -69,7 +71,7 @@ const UpdateProfile = () => {
         text: res.data.message,
       });
 
-      navigate("/dashboard");
+      res.data.updatedRecord.role ? navigate("/admin") : navigate("/dashboard");
     } catch (error) {
       console.log("ERROR", error);
 

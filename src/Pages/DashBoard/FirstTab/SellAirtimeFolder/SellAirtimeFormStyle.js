@@ -121,29 +121,7 @@ export const SellAirtimeFormStyle = styled.form`
     align-items: center;
     border: none;
   }
-<<<<<<< HEAD
-  /* @media (max-width: 601px) {
-    .texts {
-      display: flex;
-      margin: 0 2rem;
-    }
-    input {
-      max-width: 100%;
-    }
-    .selections {
-      max-width: 100%;
-    }
-    .Acct {
-      margin-top: 1.5rem;
-      font-size: 12px;
-    }
-    .viewacctselect {
-      font-size: 10px;
-    }
-  } */
-=======
 
->>>>>>> 18fcb7170a5b8d15fe27d309bfbc7285d9696b3e
   @media (max-width: 621px) {
     .bank-header {
       margin: 0 2rem;
@@ -182,40 +160,20 @@ export const SellAirtimeFormStyle = styled.form`
       display: flex;
       width: 250px;
       margin: 8px 4rem 16px 4rem;
-<<<<<<< HEAD
-      /* margin: 8px 32px 16px 32px; */
-=======
->>>>>>> 18fcb7170a5b8d15fe27d309bfbc7285d9696b3e
     }
     .selections {
       margin: 8px 4rem 16px 4rem;
       width: 250px;
     }
-<<<<<<< HEAD
-    .btnnn {
-      /* margin: 50px 42px 0 42px; */
-      /* padding: 16.5px 50px;
-      margin-top: 1rem; */
-    }
-=======
->>>>>>> 18fcb7170a5b8d15fe27d309bfbc7285d9696b3e
   }
   @media (max-width: 369px) {
     .btnnn {
       margin: 1rem 2rem;
-<<<<<<< HEAD
-      /* margin-bottom: 5rem; */
-=======
->>>>>>> 18fcb7170a5b8d15fe27d309bfbc7285d9696b3e
     }
   }
   @media (max-width: 302px) {
     .btnnn {
       margin: 1rem 4rem;
-<<<<<<< HEAD
-      /* margin-bottom: 5rem; */
-=======
->>>>>>> 18fcb7170a5b8d15fe27d309bfbc7285d9696b3e
     }
     .bank-header {
       flex-direction: column;
@@ -230,10 +188,6 @@ export const SellAirtimeFormStyle = styled.form`
     }
   }
   @media (max-width: 280px) {
-<<<<<<< HEAD
-    // margin: 10px 10px 10px 10px;
-=======
->>>>>>> 18fcb7170a5b8d15fe27d309bfbc7285d9696b3e
     width: 100%;
     label {
       margin-left: 15px;
@@ -248,18 +202,21 @@ export const SellAirtimeFormStyle = styled.form`
 `
 
 export const CustomStyle = {
+    option: (provided, state) => ({
+      ...provided,
+      borderBottom: "1px dotted pink",
+      color: state.isSelected ? "red" : "black",
+      padding: 10,
+      fontSize: 14,
+    }),
   control: (base) => ({
     ...base,
     // border: "1px solid #DE3D6D",
     minHeight: 48,
     marginBottom: 15,
     marginTop: 10,
-<<<<<<< HEAD
     fontSize: 13,
-=======
-    fontSize: '12px',
     //  fontSize: '30px',
->>>>>>> 18fcb7170a5b8d15fe27d309bfbc7285d9696b3e
     '&:hover': {
       // borderColor: "#DE3D6D",
     },
@@ -267,40 +224,17 @@ export const CustomStyle = {
   valueContainer: (base) => ({
     ...base,
     padding: '0 6px',
-<<<<<<< HEAD
-=======
     color: 'red',
-
-    fontSize: '12px',
->>>>>>> 18fcb7170a5b8d15fe27d309bfbc7285d9696b3e
+    
+      
   }),
   input: (base) => ({
     ...base,
     margin: 0,
-<<<<<<< HEAD
     padding: 0,
     color: '#c4c4c4',
+    
   }),
-=======
-
-    fontSize: '12px',
-    padding: 0,
-    color: '#c4c4c4',
-  }),
-  menu: (provided, state) => ({
-    ...provided,
-    borderBottom: '1px dotted pink',
-    fontSize: '12px',
-    width: '100%',
-  }),
-
-  singleValue: (provided, state) => {
-    const opacity = state.isDisabled ? 0.5 : 1
-    const transition = 'opacity 300ms'
-
-    return { ...provided, opacity, transition }
-  },
->>>>>>> 18fcb7170a5b8d15fe27d309bfbc7285d9696b3e
 }
 
 export const Label = styled.label`
@@ -316,11 +250,8 @@ export const Label = styled.label`
 `
 
 export const ModalPopupStyle = styled.form`
-<<<<<<< HEAD
-=======
-  z-index: 100;
+z-index:100;
 
->>>>>>> 18fcb7170a5b8d15fe27d309bfbc7285d9696b3e
   body.active-modal {
     overflow-y: hidden;
   }

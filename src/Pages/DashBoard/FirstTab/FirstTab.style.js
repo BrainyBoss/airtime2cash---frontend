@@ -1,24 +1,16 @@
 import styled from 'styled-components'
 
 const FirstTabStyle = styled.div`
-<<<<<<< HEAD
-  height: 80%;
+
+   height: 80%;
   width: 100%;
   margin-top: -19px;
   margin-bottom: -19%;
-  margin-left: 3%;
-  /* margin-left: 3px; */
-=======
-  /* height: 80%; */
-  width: 100%;
-  margin-top: -19px;
-  /* margin-bottom: -19%; */
-  margin-left: 3px;
->>>>>>> 18fcb7170a5b8d15fe27d309bfbc7285d9696b3e
+  margin-left: 3px%;
   // border: 4px solid blue;
 
   flex-direction: column;
-  /* height: auto; */
+  height: auto;
 
   /* .select {
     background: red;
@@ -30,18 +22,18 @@ const FirstTabStyle = styled.div`
     margin-right: 30px;
     margin-left: 0px;
   }
-
+ 
   .is_danger {
     color: red;
 
     width: 100%;
     font-size: 12px;
   }
-  #input99 {
-    width: 100%;
+  #input99{
+    width:100%
   }
-  #trans {
-    margin-bottom: 20px;
+  #trans{
+    margin-bottom: 20px
   }
 
   .sellAirtime_input_background {
@@ -54,10 +46,7 @@ const FirstTabStyle = styled.div`
     /* display: flex;
     flex-direction: column; */
   }
-  /* .readonly_input {
-    background-color: #012a4a;
-  } */
-  .ussdContainer {
+   .ussdContainer {
     position: relative;
   }
   .btn0 {
@@ -73,34 +62,20 @@ const FirstTabStyle = styled.div`
   }
 
   .sellAirtime_h3 {
-<<<<<<< HEAD
-    /* line-height: 17px; */
-    color: #012a4a;
-    font-family: 'Inter';
-    /* font-style: normal; */
-    /* font-weight: 600; */
-    font-size: 14px;
-    width: 12rem;
-    /* width: 78px; */
-    top: -20px;
-=======
+  
     line-height: 17px;
     color: #012a4a;
     font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    /* width: 78px; */
-    top: -4px;
->>>>>>> 18fcb7170a5b8d15fe27d309bfbc7285d9696b3e
-    /* height: 17px; */
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+width: 78px;
+top:-4px;
+height: 17px;
   }
   .form-container {
-    padding: 3px;
-<<<<<<< HEAD
-=======
-    align-items: baseline;
->>>>>>> 18fcb7170a5b8d15fe27d309bfbc7285d9696b3e
+    
+    padding: 3px
   }
 
   input,
@@ -114,6 +89,7 @@ const FirstTabStyle = styled.div`
     /* background-color: #012a4a; */
     width: 100%;
   }
+ 
   #btn11 {
     width: 198px;
     height: 48px;
@@ -121,7 +97,6 @@ const FirstTabStyle = styled.div`
     margin-top: 25px;
     border: none;
     color: #fff;
-    cursor: pointer;
   }
   input::placeholder {
     color: #c4c4c4;
@@ -137,19 +112,30 @@ const FirstTabStyle = styled.div`
   @media screen and (max-width: 800px) {
     .sellAirtime_body_layout {
       width: 100%;
+              
     }
+     .btn0 {
+    content: 'Copy';
+    position: absolute;
+    /* all: unset; */
+    cursor: pointer;
+    right: 10px;
+    top: 25px;
+  }
+  .btn0 img {
+    width: 15px;
+  }
     input,
     select {
       height: 30px;
       width: 95%;
     }
-    & .sellAirtime_h3 {
-      margin-left: 1rem;
-    }
-    & .form-container > label {
-      margin-left: -5rem;
-    }
+   & .sellAirtime_h3 {
+    margin-left: 1rem
+   }
+   & .form-container> label{
+    margin-left: -5rem
+   }
   }
 `
-
 export default FirstTabStyle

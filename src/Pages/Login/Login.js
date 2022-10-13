@@ -25,7 +25,7 @@ const Login = () => {
       Swal.fire({
         icon: 'success',
         title: 'Welcome...',
-        text: response?.data?.message
+        text: response.data.message
       })
      if(response.data.User.role === false || response.data.User.role === 'user'){
 
@@ -39,8 +39,8 @@ const Login = () => {
         title: 'Oops...',
         text:
           error.response.status === 404
-            ? error?.response?.data?.Error
-            : error?.response?.data?.message,
+            ? error.response.data.Error
+            : error.response.data.message,
       })
     }
   }

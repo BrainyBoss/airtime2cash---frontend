@@ -58,6 +58,11 @@ const SecondTab = () => {
 
     const res = await withdrawBalance({ accountNumber, bankName, amount });
     // window.location.reload();
+    //  setFormData("")
+    // setBanks("")
+    // amount= ""
+   
+
   };
   return (
     <>
@@ -113,7 +118,9 @@ const SecondTab = () => {
               //value={formData.accountNumber}
             />
           </Label>
-          <button  id="btn11" type="submit" className="btnnn" onClick={handleSubmit}>
+          <button  id="btn11" type="submit" className="btnnn"   setBanks={banks}
+          setFormData={formData}
+          onClick={handleSubmit}>
             Withdraw
           </button>
         </form>
