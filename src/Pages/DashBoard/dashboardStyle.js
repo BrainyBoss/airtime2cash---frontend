@@ -4,7 +4,6 @@ export const DashboardStyle = styled.div`
   .generaldiv {
     background-color: #fff;
     padding-bottom: 4rem;
-<<<<<<< HEAD
 
     & .topPage {
       width: 100%;
@@ -14,17 +13,6 @@ export const DashboardStyle = styled.div`
       background: rgba(255, 234, 241);
     }
 
-=======
-
-    & .topPage {
-      width: 100%;
-      margin: 0%;
-      max-width: 100vw;
-      height: 25rem;
-      background: rgba(255, 234, 241);
-    }
-
->>>>>>> 18fcb7170a5b8d15fe27d309bfbc7285d9696b3e
     & .mainPage {
       background-color: #fff;
       display: flex;
@@ -32,14 +20,11 @@ export const DashboardStyle = styled.div`
       align-items: center;
       width: 50rem;
       max-width: 100%;
-<<<<<<< HEAD
-      height: 79.125rem;
-=======
-      /* height: 72.125rem; */
->>>>>>> 18fcb7170a5b8d15fe27d309bfbc7285d9696b3e
+       height:170vh; 
       margin: -13rem auto 15vh auto;
       margin: -13rem auto 0 auto;
       border: 1px solid #d9d9d9;
+      
 
       & .headText {
         margin: 8% 0 10% 0;
@@ -100,10 +85,7 @@ export const DashboardStyle = styled.div`
     }
   }
 `
-<<<<<<< HEAD
-=======
 
->>>>>>> 18fcb7170a5b8d15fe27d309bfbc7285d9696b3e
 export const TabsElement = styled.div`
   /* width: 80%; */
   box-sizing: border-box;

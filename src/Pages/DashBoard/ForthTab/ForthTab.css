@@ -15,7 +15,6 @@
   flex-grow: 0;
 }
 #transaction-historytab{
-  /* border: 2px solid red; */
   overflow: scroll;
   scrollbar-width: 2px;
   height:90vh

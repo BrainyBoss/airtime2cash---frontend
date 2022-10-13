@@ -1,18 +1,8 @@
 import React, { useState , useEffect} from 'react'
-//import  { useState } from "react";
-import { useNavigate } from 'react-router-dom'
-import { Link } from 'react-router-dom'
-import { Navbar } from '../../Components/Navbar'
 import Tabs from './Tab/Tabs';
 import axios from '../../Api/axios';
 import jwtDecode from 'jwt-decode';
-import ForthTab from './ForthTab/ForthTab';
-import DashBoardWallet from './DashBoardWallet';
-import { DashboardStyle, TabsElement } from './dashboardStyle'
 
-import FirstTab from './FirstTab/FirstTab'
-import SecondTab from './SecondTab/SecondTab'
-import ThirdTab from './ThirdTab/ThirdTab'
 
 import './Tab/Tabs.css'
 
@@ -36,7 +26,6 @@ const DashBoard = () => {
       }
      
       );
-      console.log(res)
 
       localStorage.setItem("id", res.data.user.id);
      localStorage.setItem("firstName", res.data.user.firstName);
@@ -57,8 +46,6 @@ const DashBoard = () => {
 
   return (
     <Tabs  />
-  
-
   )
 }
 

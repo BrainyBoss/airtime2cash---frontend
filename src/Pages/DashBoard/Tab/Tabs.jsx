@@ -1,47 +1,15 @@
-<<<<<<< HEAD
-import React, { useState } from 'react'
-import './Tabs.css'
-// import FirstTab from '../FirstTab/FirstTab'
-=======
 import React, { useEffect, useState } from 'react'
 import './Tabs.css'
 // import FirstTab from "../FirstTab/FirstTab";
->>>>>>> 18fcb7170a5b8d15fe27d309bfbc7285d9696b3e
 import SellAirtimeForm from '../FirstTab/SellAirtimeFolder/SellAirtimeForm'
 import SecondTab from '../SecondTab/SecondTab'
 import ThirdTab from '../ThirdTab/ThirdTab'
 import ForthTab from '../ForthTab/ForthTab'
-<<<<<<< HEAD
-=======
 import FifthTab from '../FifthTab/FifthTab'
->>>>>>> 18fcb7170a5b8d15fe27d309bfbc7285d9696b3e
 import TabContent from '../TabContent'
 import TabNavItem from '../TabNavItem'
 import { DashboardStyle } from '../dashboardStyle'
 import { Navbar } from '../../../Components/Navbar'
-<<<<<<< HEAD
-
-const Tabs = ({}) => {
-  const [activeTab, setActiveTab] = useState('tab1')
-  const tabs = [
-    'Transfer airtime',
-    'Withdraw balance',
-    'Manage bank account',
-    'Transaction history',
-  ]
-
-  console.log('ACTIVE', activeTab)
-  // testing = activeTab
-  const handleTab1 = () => {
-    // update the state to tab1
-    setActiveTab('tab1')
-  }
-  const handleTab2 = () => {
-    // update the state to tab2
-    setActiveTab('tab2')
-  }
-
-=======
 import axios from '../../../Api/axios'
 import jwtDecode from 'jwt-decode'
 
@@ -65,7 +33,6 @@ const Tabs = ({}) => {
   }, [])
   console.log('USER DETAILS', userDetails)
   const amt = localStorage.getItem('wallet')
->>>>>>> 18fcb7170a5b8d15fe27d309bfbc7285d9696b3e
   return (
     <div style={{ background: 'red' }}>
       <Navbar dashboard />
@@ -84,14 +51,10 @@ const Tabs = ({}) => {
               <div className='balance-wrapper2'>
                 <div className='balance2'>
                   <p className='text2'>Wallet Balance</p>
-<<<<<<< HEAD
-                  <p className='acct-bal2'>N21,350.00</p>
-=======
                   <p className='acct-bal2'>
                     <span>&#8358;</span>
                     {userDetails?.data?.user?.wallet}
                   </p>
->>>>>>> 18fcb7170a5b8d15fe27d309bfbc7285d9696b3e
                   <button>Active is active</button>
                 </div>
               </div>
@@ -101,11 +64,7 @@ const Tabs = ({}) => {
             <div className='Tabs'>
               <ul className='nav'>
                 <TabNavItem
-<<<<<<< HEAD
-                  title='Transfer airtime'
-=======
                   title='Sell airtime'
->>>>>>> 18fcb7170a5b8d15fe27d309bfbc7285d9696b3e
                   id='tab1'
                   activeTab={activeTab}
                   setActiveTab={setActiveTab}
@@ -125,15 +84,12 @@ const Tabs = ({}) => {
                 <TabNavItem
                   title='Transaction history'
                   id='tab4'
-<<<<<<< HEAD
-=======
                   activeTab={activeTab}
                   setActiveTab={setActiveTab}
                 />
                 <TabNavItem
                   title='Withdrawer history'
                   id='tab5'
->>>>>>> 18fcb7170a5b8d15fe27d309bfbc7285d9696b3e
                   activeTab={activeTab}
                   setActiveTab={setActiveTab}
                 />
@@ -141,12 +97,8 @@ const Tabs = ({}) => {
 
               <div className='outlet'>
                 <TabContent id='tab1' activeTab={activeTab}>
-<<<<<<< HEAD
-                  {/* <FirstTab /> */} {<SellAirtimeForm />}
-=======
                   {/* <FirstTab /> */}
                   <SellAirtimeForm />
->>>>>>> 18fcb7170a5b8d15fe27d309bfbc7285d9696b3e
                 </TabContent>
                 <TabContent id='tab2' activeTab={activeTab}>
                   {/* <SecondTab/> */}
