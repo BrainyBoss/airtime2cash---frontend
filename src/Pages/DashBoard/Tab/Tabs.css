@@ -6,12 +6,9 @@
   margin-top: 5%;
 width:100%;
     display: flex;
-    /* flex-direction: row; */
     flex-wrap: wrap;
     justify-content: space-between;
-    /* align-items: center; */
     list-style: none;
-    /* gap: 10%;  */
     
 
 }
@@ -27,23 +24,16 @@ cursor: pointer;
 .nav >li::after{
 height: 0;
 }
-.nav > li:hover::after {
-  /* border: 1px solid red; */
-}
-
 
 ul.nav li.active{
   border-bottom: 1px solid #DE3D6D;
 }
 .outlet{
-  /* border: 4px solid blue; */
-  /* margin-bottom: 20px */
   padding: 4rem 0;
 }
 
 .TabContent {
   font-size: 2rem;
-  /* text-align: center; */
 }
 @media (max-width:668px) {
      .nav{

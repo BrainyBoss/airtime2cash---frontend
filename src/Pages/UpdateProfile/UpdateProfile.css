@@ -25,7 +25,6 @@
     top: 0px;
     z-index: 1;
     background: rgba(222, 61, 109, 0.1);
-    /* border: 3px solid red; */
    
 }
   @media screen and (max-width: 800px) {
@@ -57,7 +56,6 @@
     
 }
 .basic{
-    /* border: 4px solid red; */
     align-items: center;
     padding-left: 70px;
 }
@@ -95,9 +93,6 @@ form .update-btn {
     width: 100%;
     border: 2px solid blue;
 }
-#profile-image{
-
-}
 .avatar6{
   
     margin-left:0
@@ -115,12 +110,6 @@ form .update-btn {
 
 
 @media only screen and (max-width: 600px) {
-body {
-  
-}
-    
-
-
     .login_back {
         background: white; 
     }
@@ -146,8 +135,6 @@ body {
     z-index: 200;
     top: 30%;
     bottom: 30%;
-    /* left: 30%;
-    right:30%; */
     width: 30%;
     height: 40%;
   
@@ -186,7 +173,6 @@ body {
     }
 #mainlog{
     width:60%;
-    /* height:19px */
   }
     .update_back{
         width: 100%;
@@ -204,8 +190,7 @@ body {
   
   }
 
- .modal-content{
-    /* width: 400px; */
+.modal-content{
     width: 100%;
     height: 400px;
     background-color: white;
@@ -216,35 +201,38 @@ body {
     gap: 3rem;
     border-radius: 1rem;
     padding: 1rem
-  }
+}
 
 
 
 .modal-logo {
- width: 150px
+    width: 150px;
 }
-.upload-section {
-  display: flex;
- flex-direction: column;
-  justify-content: center;
-    align-items: center;
-    gap: 1rem
-  }
 
-  .close-btn {
-    align-self: flex-end;
-    cursor: pointer
-  }
-  .allowed-text {
-    color: red;
-    font-size: 12px
-  }
-  .save-btn-modal {
-    margin-top: 1rem;
-    color: #ffffff;
-    padding: 0.5rem 1.5rem;
-    border-radius: 6px;
-    background-image: linear-gradient(to right, #de3d6d 80%, #f5844c 100%);
+.upload-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem
+}
+
+.close-btn {
+    align-self: flex-end;
+    cursor: pointer
+}
+
+.allowed-text {
+    color: red;
+    font-size: 12px
+}
+
+.save-btn-modal {
+    margin-top: 1rem;
+        color: #ffffff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+    background-image: linear-gradient(to right, #de3d6d 80%, #f5844c 100%);
 }
 
 #button3{

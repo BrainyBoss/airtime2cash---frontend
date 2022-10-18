@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7a944a8d.css",
+    "main.js": "/static/js/main.efaa692b.js",
+    "static/media/HeroImage.png": "/static/media/HeroImage.c87c83a3e4bd037b2785.png",
+    "static/media/user.jpeg": "/static/media/user.ed3f4cb9d4b48918d668.jpeg",
+    "static/media/Recharge.png": "/static/media/Recharge.fbe1bbed5561261132d1.png",
+    "static/media/logo.svg": "/static/media/logo.4ba1f0e82a1fbbed3fe574355277392a.svg",
+    "static/media/Frame 8589.svg": "/static/media/Frame 8589.2e86af731e980b07e8028b0f1dcd33cc.svg",
+    "static/media/logo2.svg": "/static/media/logo2.426d804ca85e7e0f5647125d2bb3279d.svg",
+    "static/media/logo3.svg": "/static/media/logo3.7d8d51a00f18e67029032fdf84dd166d.svg",
+    "static/media/logo1.svg": "/static/media/logo1.3f4261d3d04eb79b23ff9a7ce2981a4d.svg",
+    "static/media/settings.svg": "/static/media/settings.fe10fb503a8d207a14526f5ab9dbcfc1.svg",
+    "static/media/Dashboard.svg": "/static/media/Dashboard.830c37ea73b05b0591fd488c43af4240.svg",
+    "static/media/logout.svg": "/static/media/logout.e52024c392883b4e1325fb8409063d0b.svg",
+    "static/media/Spinning.svg": "/static/media/Spinning.7e76e3af036adf99fea38d185287030c.svg",
+    "static/media/help.svg": "/static/media/help.4482b1745b75f7383dba976a27c19ef1.svg",
+    "static/media/UserIcon.svg": "/static/media/UserIcon.b2c6f20ac4fd7d88242d7fed7d6bfc3d.svg",
+    "static/media/Login.svg": "/static/media/Login.a046ce6ee5279a69e07b4062561c0f0f.svg",
+    "static/media/copy.svg": "/static/media/copy.54bc365b7a65422d061210d99f422fe5.svg",
+    "index.html": "/index.html",
+    "static/media/Vector.svg": "/static/media/Vector.864e8aabc88e18b4ed6f4177c180d8c9.svg",
+    "main.7a944a8d.css.map": "/static/css/main.7a944a8d.css.map",
+    "main.efaa692b.js.map": "/static/js/main.efaa692b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a944a8d.css",
+    "static/js/main.efaa692b.js"
+  ]
+}

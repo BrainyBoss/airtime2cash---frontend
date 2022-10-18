@@ -42,18 +42,6 @@ export const SellAirtimeFormStyle = styled.form `
     flex-direction: column;
     font-size: 1rem;
   }
-  // input {
-  //   width:100%;
-  //   padding: 1rem;
-  //   margin: 8px 0px 16px 0px;
-  //   opacity: 0.3;
-  //   font:Inter;
-  //   font-weight:400;
-  //   font-style:normal;
-  //   font-size:14px;
-  //   line-height:16.94px;
-  //   font-color:#C4C4C4;
-  // }
   .special{
     background-color: rgba(0, 0, 0, 0.04);
     border-style: solid;
@@ -116,25 +104,6 @@ export const SellAirtimeFormStyle = styled.form `
     align-items: center;
     border: none;
   }
-  /* @media (max-width: 601px) {
-    .texts {
-      display: flex;
-      margin: 0 2rem;
-    }
-    input {
-      max-width: 100%;
-    }
-    .selections {
-      max-width: 100%;
-    }
-    .Acct {
-      margin-top: 1.5rem;
-      font-size: 12px;
-    }
-    .viewacctselect {
-      font-size: 10px;
-    }
-  } */
   @media (max-width: 621px) {
     .bank-header {
       margin: 0 2rem;
@@ -173,28 +142,20 @@ export const SellAirtimeFormStyle = styled.form `
       display: flex;
       width: 250px;
       margin: 8px 4rem 16px 4rem;
-      /* margin: 8px 32px 16px 32px; */
     }
     .selections {
       margin: 8px 4rem 16px 4rem;
       width: 250px;
     }
-    .btnnn {
-      /* margin: 50px 42px 0 42px; */
-      /* padding: 16.5px 50px;
-      margin-top: 1rem; */
-    }
   }
   @media (max-width: 369px) {
     .btnnn {
       margin: 1rem 2rem;
-      /* margin-bottom: 5rem; */
     }
   }
   @media (max-width: 302px) {
     .btnnn {
       margin: 1rem 4rem;
-      /* margin-bottom: 5rem; */
     }
     .bank-header{
       flex-direction: column;

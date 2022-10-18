@@ -18,7 +18,6 @@ body {
 }
 
 .signup_back {
-  /* border: 3px solid red; */
   background: rgb(255, 255, 255);
   margin-top: 6%;
   padding: 0 7rem;
@@ -105,10 +104,6 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    /* padding: 1rem; */
-  }
-
   .signup_h2 {
     margin-left: 3.5rem;
     width: max-content;
