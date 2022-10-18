@@ -4,10 +4,6 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   z-index:100;
   width: 100%;
-//  @media (max-width: 653px) {
-//   width: 100%;
-//   background-color: red
-//  }
 `;
 export const Nav = styled.div`
   display: flex;
@@ -192,7 +188,6 @@ export const SideIndicator = styled.div`
 export const AboutCardWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
   gap: 45px;
   padding: 0 10%;
   color: #03435f;
@@ -202,7 +197,6 @@ export const AboutCard = styled.div`
   background-color: ${({ backgroundColor }) =>
     backgroundColor ? backgroundColor : "#FFF1F3"};
   padding: 25px;
-  /* width: 26%; */
   width: 19em;
   align-items: center;
   & p {
@@ -218,7 +212,6 @@ export const ProductSection = styled.div`
   margin: 7% 10%;
   border-radius: 24px;
   display: flex;
-  /* flex-direction: row; */
   flex-wrap: wrap;
   color: #03435f;
   justify-content: space-between;
@@ -319,7 +312,6 @@ export const TestimonialCard = styled.div`
     margin: 5px 0 20px 0;
   }
   & p {
-    /* font-size: 0.5rem; */
     font-weight: lighter;
     width: 100%;
     line-height: 26px;
@@ -373,7 +365,6 @@ export const LowerFooter = styled.div`
     width: 50em;
     font-size: 1rem;
     justify-content: start;
-    /* flex-grow: 0; */
   }
   @media (max-width: 1024px) {
     & .socials-wrapper {
